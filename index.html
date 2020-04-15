@@ -7,6 +7,7 @@
   <script src="./gtag.js"></script>
 
   <title>CREVEA Inc</title>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,26 +19,29 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+
+  <!-- Import for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <!-- Link external css -->
+  <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 
 <!-- Hide on screens wider than md. Show on mobile screen size -->
-<div class="pos-f-t d-md-none">
+<div class="pos-f-t d-sm-none">
   <nav class="navbar navbar-dark" style="background-color: #1274D0;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
       aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <a href="./index.html" class="nav-link text-white mx-auto pr-5"><strong>CREVEA Inc</strong></a>
   </nav>
 
   <nav class="navbar navbar-expand-sm collapse" id="navbarToggleExternalContent" style="background-color: #1274D0;">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a href="./index.html" class="nav-link text-white">CREVEA Inc</a>
+        <a href="./index.html" class="nav-link text-white">Home</a>
       </li>
       <li class="nav-item">
         <a href="./contact.html" class="nav-link text-white">CONTACT</a>
@@ -56,29 +60,43 @@
 </div>
 
 <!-- Hide on screens smaller than md. Show on iPad and Desktop screen -->
-<nav class="navbar navbar-expand-sm d-none d-md-block" style="background-color: #1274D0;">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a href="./index.html" class="nav-link text-white">CREVEA Inc</a>
-    </li>
-    <li class="nav-item">
-      <a href="./contact.html" class="nav-link text-white">CONTACT</a>
-    </li>
-    <li class="nav-item">
-      <a href="./news.html" class="nav-link text-white">NEWS</a>
-    </li>
-    <li class="nav-item">
-      <a href="./aboutUs.html" class="nav-link text-white">ABOUT US</a>
-    </li>
-    <li class="nav-item">
-      <a href="./ourBusiness.html" class="nav-link text-white">OUR BUSINESS</a>
-    </li>
-  </ul>
+<nav class="navbar navbar-expand-sm p-0" style="background-color: #1274D0;">
+  <div class="container mx-auto">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link text-white text-nowrap"><strong>CREVEA Inc.</strong></a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link text-white active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./contact.html" class="nav-link text-white">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a href="./news.html" class="nav-link text-white">NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a href="./aboutUs.html" class="nav-link text-white text-nowrap">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a href="./ourBusiness.html" class="nav-link text-white text-nowrap">OUR BUSINESS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="fa fa-search text-white"></span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
 <!-- Header -->
 <header class="container-fluid mx-0 px-0" style="max-width:100%;" id="home">
-  <img class="img-fluid w-100" src="https://i.imgur.com/z7MBEsN.jpg" alt="Home">
+  <img class="img-fluid" src="https://i.imgur.com/z7MBEsN.jpg" alt="Home">
 </header>
 
 <body>
@@ -87,18 +105,19 @@
   <div class="container-fluid px-0 mx-0">
 
     <!-- About Us Section -->
-    <section class="container mx-auto row px-0 mx-0">
+    <section class="container mx-auto row px-0 py-5 mx-0">
       <div class="col-lg-6 col-md-6">
         <div>
-          <h2 id="about_us">ABOUT US</h2>
-          <img src="./icons/ic_dash.png" style="width: 44px;">
+          <h2 id="about_us"><span><img class="pr-2" src="./icons/ic_dash.png" style="width: 44px;"></span>ABOUT US</h2>
         </div>
-        <p><strong>Our goal is "to support and connect educational institutions, companies across the world by
+        <p class="text-justify"><strong>Our goal is "to support and connect educational institutions, companies across
+            the world by
             providing
             highly qualified/skilled human resource for mutual development and consulting services in job and skills
             training".
             Achieving this, we hope to contribute to the betterment of society.</strong></p>
-        <p>Our staff are highly experienced and senior members of diverse backgrounds in educational institutions and
+        <p class="text-justify">Our staff are highly experienced and senior members of diverse backgrounds in
+          educational institutions and
           companies in Vietnam and other territories across the globe. We could provide superior services to our
           customers
         </p>
@@ -110,30 +129,41 @@
     </section>
 
     <!-- Our business Section -->
-    <section class="container mx-auto row px-0 mx-0" id="our_business">
-      <div class="col-lg-6 col-md-12">
-        <img class="img-fluid" src="https://i.imgur.com/5AVVaKY.jpg">
+    <section class="container-fluid mx-auto px-0 row w-100" id="our_business">
+      <div class="col-lg-6 col-md-12 px-0 w-100">
+        <img class="img-fluid w-100" src="https://i.imgur.com/5AVVaKY.jpg">
       </div>
 
-      <div class="col-lg-6 col-md-12">
-        <div style="background-image: url(https://i.imgur.com/YE6srBq.jpg)">
+      <div class="col-lg-6 col-md-12 px-0 w-100">
 
-          <div class="container row">
-            <div class="col-lg-1 col-md-1 col-sm-3">
+        <div class="pt-5 w-100 h-100" style="background-image: url(https://i.imgur.com/YE6srBq.jpg)">
+
+          <div class="container row position-relative move-left">
+            <div class="col-lg-1 col-md-1 col-sm-3 w-25">
+
+            </div>
+            <div class="col-lg-11 col-md-11 col-sm-9 w-75 text-white">
+              <h3 id="about_us" class="text-white"><span><img class="pr-2" src="./icons/ic_dash_white.png"
+                    style="width: 44px;"></span>Our Business</h3>
+            </div>
+          </div>
+
+          <div class="container row position-relative move-left">
+            <div class="col-lg-1 col-md-1 w-25">
               <img class="rounded-circle" src="https://i.imgur.com/g8Uz5Ei.jpg" width="40px" height="40px">
             </div>
-            <div class="col-lg-11 col-md-11 col-sm-9 text-white">
+            <div class="col-lg-11 col-md-11 w-75 text-white">
               <h3>Education Consulting</h3>
               <p>We offer various services as required from different educational institutions in
                 Vietnam</p>
             </div>
           </div>
 
-          <div class="container row">
-            <div class="col-lg-1 col-md-1 col-sm-3">
+          <div class="container row position-relative move-left">
+            <div class="col-lg-1 col-md-1 col-sm-3 w-25">
               <img class="rounded-circle" src="https://i.imgur.com/F5Chde2.jpg" width="40px" height="40px">
             </div>
-            <div class="col-lg-11 col-md-11 col-sm-9 text-white">
+            <div class="col-lg-11 col-md-11 col-sm-9 w-75 text-white">
               <h3>Business Consulting</h3>
               <p>We provide various services as according to requests from foreign companies and
                 educational institutions</p>
@@ -144,41 +174,48 @@
     </section>
 
     <!-- News Section -->
-    <section class="container mx-auto px-0 mx-0">
-      <div class="container" id="news">
-        <h3>News</h3>
-        <img src="./icons/ic_dash.png" style="width: 44px;">
+    <section class="container py-3">
+      <div class="container px-0" id="news">
+        <h3><span><img class="pr-2" src="./icons/ic_dash.png" style="width: 44px;"></span>News</h3>
+        <h3>Latest News</h3>
       </div>
 
-      <div class="mx-auto row px-0 mx-0">
-        <article class="container col-lg-4 col-md-4">
-          <img src="https://i.imgur.com/9oymWKS.jpg" width="100%">
-          <div>
-            <p><strong>Japanese staff agency company visited to Hanoi</strong></p>
-            <p>Read more<img style="margin: 2px; padding-left: 4px; position: absolute;" src="./icons/ic_arrow.png"
-                width="16px"></p>
+      <div class="row">
+        <article class="col-lg-4 col-md-4">
+          <div class="px-0 my-2 border">
+            <img class="img-fluid" src="https://i.imgur.com/9oymWKS.jpg">
+            <div class="p-3">
+              <p><strong>Japanese staff agency company visited to Hanoi</strong></p>
+              <p>Read more<img style="margin: 2px; padding-left: 4px; position: absolute;" src="./icons/ic_arrow.png"
+                  width="16px"></p>
+            </div>
           </div>
         </article>
 
-        <article class="container col-lg-4 col-md-4">
-          <img src="https://i.imgur.com/N9c8DaB.jpg" width="100%">
-          <div>
-            <p><strong>Taiwanese university visited to Hanoi</strong></p>
-            <p>Read more<img style="margin: 2px; padding-left: 4px; position: absolute;" src="./icons/ic_arrow.png"
-                width="16px"></p>
+        <article class="col-lg-4 col-md-4">
+          <div class="px-0 my-2 border">
+            <img class="img-fluid" src="https://i.imgur.com/N9c8DaB.jpg">
+            <div class="p-3">
+              <p><strong>Taiwanese university visited to Hanoi</strong></p>
+              <p>Read more<img style="margin: 2px; padding-left: 4px; position: absolute;" src="./icons/ic_arrow.png"
+                  width="16px"></p>
+            </div>
           </div>
         </article>
 
-        <article class="container col-lg-4 col-md-4">
-          <img src="https://i.imgur.com/jmrZrhu.jpg" width="100%">
-          <div>
-            <p><strong>We are pleased to announce the renewal of CREVEA Inc. Official website.</strong></p>
-            <p>We changed the whole design and format to create more efficient and superior experience for our customers
-              once they visit the website. We will continue updating it and providing more useful information. The
-              website
-              in Japanese will come out soon.</p>
-            <p>Read more<img style="margin: 2px; padding-left: 4px; position: absolute;" src="./icons/ic_arrow.png"
-                width="16px"></p>
+        <article class="col-lg-4 col-md-4">
+          <div class="px-0 my-2 border">
+            <img class="img-fluid" src="https://i.imgur.com/jmrZrhu.jpg">
+            <div class="p-3">
+              <p><strong>We are pleased to announce the renewal of CREVEA Inc. Official website.</strong></p>
+              <p>We changed the whole design and format to create more efficient and superior experience for our
+                customers
+                once they visit the website. We will continue updating it and providing more useful information. The
+                website
+                in Japanese will come out soon.</p>
+              <p>Read more<img style="margin: 2px; padding-left: 4px; position: absolute;" src="./icons/ic_arrow.png"
+                  width="16px"></p>
+            </div>
           </div>
         </article>
       </div>
@@ -187,73 +224,78 @@
     <!-- Contact Section -->
     <section class="container">
       <div class="container mx-auto px-0 mx-0" id="contact">
-        <h3>Contact</h3>
-        <img src="./icons/ic_dash.png" style="width: 44px;">
+        <h3><span><img class="pr-2" src="./icons/ic_dash.png" style="width: 44px;"></span>Contact</h3>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6">
-          <p><strong>We will connect you with the relevant person in charge. Please click "Send button" after providing
+          <p class="text-justify"><strong>We will connect you with the relevant person in charge. Please click "Send
+              button" after providing
               your registering input.</strong></p>
 
           <form action="/register">
-            <div class="row mx-0">
-              <input class="col-lg-4 col-md-4" type="text" id="name" name="name" placeholder="Your name">
-              <input class="col-lg-4 col-md-4" type="text" id="email" name="email" placeholder="Email address">
-              <input class="col-lg-4 col-md-4" type="text" id="phone" name="phone" placeholder="Phone number">
+            <div class="row px-0 mx-0">
+              <input class="form-control col-lg-4 px-2 my-1" type="text" id="name" name="name" placeholder="Your name">
+              <input class="form-control col-lg-4 px-2 my-1" type="text" id="email" name="email"
+                placeholder="Email address">
+              <input class="form-control col-lg-4 px-2 my-1" type="text" id="phone" name="phone"
+                placeholder="Phone number">
             </div>
 
             <div>
-              <textarea class="d-block mt-3 w-100" style="height: 100px" type="text" id="message" name="message"
-                placeholder="Your message"></textarea>
+              <textarea class="form-control w-100 p-2 mt-2" style="height: 90px;" type="text" id="message"
+                name="message" placeholder="Your message"></textarea>
             </div>
           </form>
         </div>
 
-        <div class="col-lg-6 col-md-6 my-0">
+        <div class="col-lg-6 col-md-6 mt-2">
           <img class="img-fluid" src="https://i.imgur.com/o9NCdFV.png">
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-12 col-md-6 mx-auto my-2">
-          <input type="submit" value="Send message">
+      <div class="row py-3">
+        <div class="col-lg-12 col-md-6 text-center">
+          <input type="submit" class="btn btn-warning text-white" value="Send message">
         </div>
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="container-fluid text-white p-3" style="background-color: #191919">
-      <div class="container mx-auto row m-0">
-        <div class="col-lg-3">
-          <h4>CREVEA</h4>
-          <p><strong>Add:</strong> No 45C, 210 alley Hoang Quoc Viet street Cau Giay - Ha Noi -
-            Viet Nam</p>
-          <p><strong>TEL:</strong> (+84) 989-412-665</p>
-          <p><strong>Email:</strong> daisuke.kawashima@crevea.com</p>
+      <div class="container mx-auto row m-0 p-0">
+        <div class="col-lg-3 py-2">
+          <h6>CREVEA</h6>
+          <small><strong>Add:</strong> No 45C, 210 alley Hoang Quoc Viet street Cau Giay - Ha Noi -
+            Viet Nam</small>
+          <br>
+          <small><strong>TEL:</strong> (+84) 989-412-665</small>
+          <br>
+          <small><strong>Email:</strong> daisuke.kawashima@crevea.com</small>
         </div>
 
-        <div class="col-lg-3">
-          <h4>CATEGORIES</h4>
-          <a class="text-white" style="text-decoration: none;" href="./index.html">> Home</a><br>
-          <a class="text-white" style="text-decoration: none;" href="./news.html">> News</a><br>
-          <a class="text-white" style="text-decoration: none;" href="./aboutUs.html">> About us</a><br>
-          <a class="text-white" style="text-decoration: none;" href="./ourBusiness.html">> Our business</a><br>
-          <a class="text-white" style="text-decoration: none;" href="./contact.html">> Contact</a>
+        <div class="col-lg-3 py-2">
+          <h6>CATEGORIES</h6>
+          <a class="text-white small" style="text-decoration: none;" href="#home">> Home</a><br>
+          <a class="text-white small" style="text-decoration: none;" href="#news">> News</a><br>
+          <a class="text-white small" style="text-decoration: none;" href="#about_us">> About us</a><br>
+          <a class="text-white small" style="text-decoration: none;" href="#our_business">> Our business</a><br>
+          <a class="text-white small" style="text-decoration: none;" href="#contact">> Contact</a>
         </div>
 
-        <div class="col-lg-3">
-          <h4>LANGUAGE</h4>
-          <a class="text-white" style="text-decoration: none;" href="#english">> English</a><br>
-          <a class="text-white" style="text-decoration: none;" href="#japanese">> Japanese</a>
+        <div class="col-lg-3 py-2">
+          <h6>LANGUAGE</h6>
+          <a class="text-white small" style="text-decoration: none;" href="#english">> English</a><br>
+          <a class="text-white small" style="text-decoration: none;" href="#japanese">> Japanese</a>
         </div>
 
-        <div class="col-lg-3">
-          <h4>GET OUR NEWS FROM US</h4>
-          <p>Please enter the email below to not miss the latest news from us!</p>
-          <div>
-            <input class="subscribe_email" type="text" id="subscribe_email" name="subscribe_email"
-              placeholder="Your email enter">
-            <button type="button" class="btn btn-primary">Submit</button>
+        <div class="col-lg-3 py-2">
+          <h6>GET OUR NEWS FROM US</h6>
+          <small>Please enter the email below to not miss the latest news from us!</small>
+          <div class="input-group mt-2">
+            <input type="text" class="form-control" placeholder="Your email enter">
+            <span class="input-group-btn pl-2">
+              <button class="btn btn-primary" type="button">Submit</button>
+            </span>
           </div>
         </div>
       </div>
