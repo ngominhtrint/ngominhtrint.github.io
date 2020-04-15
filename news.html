@@ -20,18 +20,19 @@
 </head>
 
 <!-- Hide on screens wider than md. Show on mobile screen size -->
-<div class="pos-f-t d-md-none">
+<div class="pos-f-t d-sm-none">
   <nav class="navbar navbar-dark" style="background-color: #1274D0;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
       aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <a href="./index.html" class="nav-link text-white mx-auto pr-5"><strong>CREVEA Inc</strong></a>
   </nav>
 
   <nav class="navbar navbar-expand-sm collapse" id="navbarToggleExternalContent" style="background-color: #1274D0;">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a href="./index.html" class="nav-link text-white">CREVEA Inc</a>
+        <a href="./index.html" class="nav-link text-white">Home</a>
       </li>
       <li class="nav-item">
         <a href="./contact.html" class="nav-link text-white">CONTACT</a>
@@ -50,24 +51,38 @@
 </div>
 
 <!-- Hide on screens smaller than md. Show on iPad and Desktop screen -->
-<nav class="navbar navbar-expand-sm d-none d-md-block" style="background-color: #1274D0;">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a href="./index.html" class="nav-link text-white">CREVEA Inc</a>
-    </li>
-    <li class="nav-item">
-      <a href="./contact.html" class="nav-link text-white">CONTACT</a>
-    </li>
-    <li class="nav-item">
-      <a href="./news.html" class="nav-link text-white">NEWS</a>
-    </li>
-    <li class="nav-item">
-      <a href="./aboutUs.html" class="nav-link text-white">ABOUT US</a>
-    </li>
-    <li class="nav-item">
-      <a href="./ourBusiness.html" class="nav-link text-white">OUR BUSINESS</a>
-    </li>
-  </ul>
+<nav class="navbar navbar-expand-sm p-0" style="background-color: #1274D0;">
+  <div class="container mx-auto">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link text-white text-nowrap"><strong>CREVEA Inc.</strong></a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link text-white active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./contact.html" class="nav-link text-white">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a href="./news.html" class="nav-link text-white">NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a href="./aboutUs.html" class="nav-link text-white text-nowrap">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a href="./ourBusiness.html" class="nav-link text-white text-nowrap">OUR BUSINESS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="fa fa-search text-white"></span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
 <!-- Header -->
@@ -172,37 +187,40 @@
 
   <!-- Footer -->
   <footer class="container-fluid text-white p-3" style="background-color: #191919">
-    <div class="container mx-auto row m-0">
-      <div class="col-lg-3">
-        <h4>CREVEA</h4>
-        <p><strong>Add:</strong> No 45C, 210 alley Hoang Quoc Viet street Cau Giay - Ha Noi -
-          Viet Nam</p>
-        <p><strong>TEL:</strong> (+84) 989-412-665</p>
-        <p><strong>Email:</strong> daisuke.kawashima@crevea.com</p>
+    <div class="container mx-auto row m-0 p-0">
+      <div class="col-lg-3 py-2">
+        <h6>CREVEA</h6>
+        <small><strong>Add:</strong> No 45C, 210 alley Hoang Quoc Viet street Cau Giay - Ha Noi -
+          Viet Nam</small>
+        <br>
+        <small><strong>TEL:</strong> (+84) 989-412-665</small>
+        <br>
+        <small><strong>Email:</strong> daisuke.kawashima@crevea.com</small>
       </div>
 
-      <div class="col-lg-3">
-        <h4>CATEGORIES</h4>
-        <a class="text-white" style="text-decoration: none;" href="./index.html">> Home</a><br>
-        <a class="text-white" style="text-decoration: none;" href="./news.html">> News</a><br>
-        <a class="text-white" style="text-decoration: none;" href="./aboutUs.html">> About us</a><br>
-        <a class="text-white" style="text-decoration: none;" href="./ourBusiness.html">> Our business</a><br>
-        <a class="text-white" style="text-decoration: none;" href="./contact.html">> Contact</a>
+      <div class="col-lg-3 py-2">
+        <h6>CATEGORIES</h6>
+        <a class="text-white small" style="text-decoration: none;" href="#home">> Home</a><br>
+        <a class="text-white small" style="text-decoration: none;" href="#news">> News</a><br>
+        <a class="text-white small" style="text-decoration: none;" href="#about_us">> About us</a><br>
+        <a class="text-white small" style="text-decoration: none;" href="#our_business">> Our business</a><br>
+        <a class="text-white small" style="text-decoration: none;" href="#contact">> Contact</a>
       </div>
 
-      <div class="col-lg-3">
-        <h4>LANGUAGE</h4>
-        <a class="text-white" style="text-decoration: none;" href="#english">> English</a><br>
-        <a class="text-white" style="text-decoration: none;" href="#japanese">> Japanese</a>
+      <div class="col-lg-3 py-2">
+        <h6>LANGUAGE</h6>
+        <a class="text-white small" style="text-decoration: none;" href="#english">> English</a><br>
+        <a class="text-white small" style="text-decoration: none;" href="#japanese">> Japanese</a>
       </div>
 
-      <div class="col-lg-3">
-        <h4>GET OUR NEWS FROM US</h4>
-        <p>Please enter the email below to not miss the latest news from us!</p>
-        <div>
-          <input class="subscribe_email" type="text" id="subscribe_email" name="subscribe_email"
-            placeholder="Your email enter">
-          <button type="button" class="btn btn-primary">Submit</button>
+      <div class="col-lg-3 py-2">
+        <h6>GET OUR NEWS FROM US</h6>
+        <small>Please enter the email below to not miss the latest news from us!</small>
+        <div class="input-group mt-2">
+          <input type="text" class="form-control" placeholder="Your email enter">
+          <span class="input-group-btn pl-2">
+            <button class="btn btn-primary" type="button">Submit</button>
+          </span>
         </div>
       </div>
     </div>
