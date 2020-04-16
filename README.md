@@ -46,7 +46,9 @@ Reference [this tutorial](https://pages.github.com/) to host project on github.i
 
 <img src='images/home.png' title='Home' width='200'/>
 <img src='images/contact.png' title='Contact' width='200'/>
+
 <img src='images/news.png' title='News' width='200'/>
 <img src='images/aboutus.png' title='AboutUs' width='200'/>
+
 <img src='images/ourbusiness.png' title='OurBusiness' width='200'/>
 <img src='images/menu.png' title='Menu' width='200'/>
