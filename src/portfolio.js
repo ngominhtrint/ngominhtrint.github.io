@@ -68,8 +68,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "ios",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+    {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -94,6 +106,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fa fa-infinity"
+    },
+    {
+      skillName: "test",
+      fontAwesomeClassname: "fa fa-vial"
     }
   ],
   display: true // Set false to hide this section, defaults to true
