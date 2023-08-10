@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1200 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -52,11 +52,14 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Proficient in Software Design, Architecture, and SOLID principles, establishing a strong software foundation for robust and maintainable applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Create dynamic and interactive mobile applications across various domains"
+    ),
+    emoji("⚡ Experienced in Mobile DevOps and Release Management using Git, Gitlab, Bitrise, and AppStore deployment"),
+    emoji(
+      "⚡ Integrate third-party services, refactor, test rigorously for quality-driven product excellence"
     )
   ],
 
@@ -163,29 +166,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior iOS Engineer",
+      company: "GXS Bank (Digital Bank)",
+      companylogo: require("./assets/images/gxsLogo.png"),
+      date: "Aug 2022 – Jul 2023",
+      desc: "Enhanced app with secure payments, cross-team collaboration",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Secured payments, on-demand authorization, partner SDK, modularization",
+        "Introduced QR scanning, custom photo gallery, push notifications, deep links"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior iOS Engineer",
+      company: "FairPrice Group (E-Groceries)",
+      companylogo: require("./assets/images/fairpriceLogo.png"),
+      date: "Aug 2020 – Aug 2023",
+      desc: "Enhanced user experience, coordinated releases, and led impactful A/B testing",
+      descBullets: [
+        "Improved browsing and cart checkout experience",
+        "Orchestrated efficient releases and cross-team collaboration",
+        "Pioneered impactful A/B testing for optimal UX"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mobile Engineer",
+      company: "Roadbull Logistics (Last Mile)",
+      companylogo: require("./assets/images/roadbullLogo.png"),
+      date: "Apr 2018 – Aug 2020",
+      desc: "Built native iOS and Android driver and fulfillment apps, increasing operational capacity from 2,000 to 40,000 parcels per day in 2 years"
+    },
+    {
+      role: "iOS Engineer & Teacher Assistant",
+      company: "CoderSchool (Education & Outsource)",
+      companylogo: require("./assets/images/coderschoolLogo.png"),
+      date: "Aug 2016 – Mar 2018",
+      desc: "Created social real estate iOS app; aided as a teacher assistant",
+      descBullets: [
+        "Developed real estate social iOS app, collaborating with external teams",
+        "Supported classroom activities as a teacher assistant for students"
+      ]
+    },
+    {
+      role: "Android Engineer",
+      company: "Saigon Technology Solutions (Outsource)",
+      companylogo: require("./assets/images/stsLogo.png"),
+      date: "Jan 2015 – Aug 2016",
+      desc: "I took charge of developing the Android project as part of the outsourcing assignment"
     }
   ]
 };
