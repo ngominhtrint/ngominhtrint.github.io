@@ -3,7 +3,7 @@ import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson2";
+import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 

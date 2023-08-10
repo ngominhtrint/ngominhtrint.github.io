@@ -114,7 +114,7 @@ const educationInfo = {
     },
     {
       schoolName: "CoderSchool",
-      logo: require("./assets/images/CoderSchoolLogo.jpeg"),
+      logo: require("./assets/images/CoderSchoolLogo.png"),
       subHeader: "iOS/Swift Development Bootcamp",
       duration: "2015",
       desc: "",
@@ -167,8 +167,9 @@ const workExperiences = {
   experience: [
     {
       role: "Senior iOS Engineer",
-      company: "GXS Bank (Digital Bank)",
+      company: "GXS Bank",
       companylogo: require("./assets/images/gxsLogo.png"),
+      companyLink: "https://apps.apple.com/sg/app/gxs-bank/id1632183616",
       date: "Aug 2022 – Jul 2023",
       desc: "Enhanced app with secure payments, cross-team collaboration",
       descBullets: [
@@ -178,9 +179,10 @@ const workExperiences = {
     },
     {
       role: "Senior iOS Engineer",
-      company: "FairPrice Group (E-Groceries)",
+      company: "FairPrice Group",
       companylogo: require("./assets/images/fairpriceLogo.png"),
-      date: "Aug 2020 – Aug 2023",
+      companyLink: "https://apps.apple.com/sg/app/fairprice-group/id1012365118",
+      date: "Aug 2020 – Aug 2022",
       desc: "Enhanced user experience, coordinated releases, and led impactful A/B testing",
       descBullets: [
         "Improved browsing and cart checkout experience",
@@ -190,15 +192,17 @@ const workExperiences = {
     },
     {
       role: "Mobile Engineer",
-      company: "Roadbull Logistics (Last Mile)",
+      company: "Roadbull Logistics",
       companylogo: require("./assets/images/roadbullLogo.png"),
+      companyLink: "https://play.google.com/store/apps/details?id=com.roadbull.driverapp",
       date: "Apr 2018 – Aug 2020",
       desc: "Built native iOS and Android driver and fulfillment apps, increasing operational capacity from 2,000 to 40,000 parcels per day in 2 years"
     },
     {
       role: "iOS Engineer & Teacher Assistant",
-      company: "CoderSchool (Education & Outsource)",
-      companylogo: require("./assets/images/coderschoolLogo.png"),
+      company: "Coder School",
+      companylogo: require("./assets/images/CoderSchoolLogo.png"),
+      companyLink: "https://www.coderschool.vn/en",
       date: "Aug 2016 – Mar 2018",
       desc: "Created social real estate iOS app; aided as a teacher assistant",
       descBullets: [
@@ -208,8 +212,9 @@ const workExperiences = {
     },
     {
       role: "Android Engineer",
-      company: "Saigon Technology Solutions (Outsource)",
+      company: "Saigon Technology",
       companylogo: require("./assets/images/stsLogo.png"),
+      companyLink: "https://saigontechnology.com/",
       date: "Jan 2015 – Aug 2016",
       desc: "I took charge of developing the Android project as part of the outsourcing assignment"
     }
@@ -267,51 +272,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Android Academy",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "For outstanding participation in completed their course in Vietnam Android Academy",
+      image: require("./assets/images/gdgvietnam.png"),
+      imageAlt: "GDG Vietnam Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1EmpbZK3QpFrmUlx0qRoujvR8wMsh_jYb/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Algorithms and Data Structures in Swift 5",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Certificate of completion",
+      image: require("./assets/images/udemy.png"),
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1gEY-o0BjX1bZVCzbislrap_IDnRF-evT/view?usp=sharing"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "App Design Course - UX, UI and Design Thinking",
+      subtitle: "Completed 3 hours of online course",
+      image: require("./assets/images/udemy.png"),
+      imageAlt: "Udemy Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+          name: "Certification", 
+          url: "https://drive.google.com/file/d/10Et0TYA3Hxsvc660neiFazY0YWDXPXGn/view?usp=sharing"
+        },
       ]
     }
   ],
