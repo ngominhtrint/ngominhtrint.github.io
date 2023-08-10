@@ -148,6 +148,10 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "85%"
+    },
+    {
+      Stack: "Mobile DevOps",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -293,20 +297,32 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With Love for Developing cool stuff, I love to write and share what I have experienced.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/ne-digital/ios-how-to-implement-a-dynamic-position-of-tabbar-handled-by-rxflow-5038ee15c997",
+      title: "How to implement a dynamic position of TabBar handled by RxFlow",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "As iOS dev, revamped static TabBar to dynamic using RxFlow. Refactored legacy code, added tab, and enabled dynamic positioning via Remote Config."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/ne-digital/ios-code-review-practices-88a152adcc9f",
+      title: "Code review practices",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "I am pleased to share a list of concerns we should care about when doing a code review in iOS."
+    },
+    {
+      url: "https://ngominhtri55.medium.com/ios-indent-first-line-of-uilabel-for-a-custom-view-152e60382d00",
+      title: "Indent first line of UILabel for a custom view",
+      description:
+        "Adjust UILabel's first-line indentation within a custom view to improve visual appeal and readability."
+    },
+    {
+      url: "https://ngominhtri55.medium.com/multiple-git-local-repositories-for-switching-context-efficiently-5871ad466a2f",
+      title: "Multiple git local repositories for switching context efficiently",
+      description:
+        "Streamline context switching with three steps: faster dependency updates, efficient Xcode workspace tasks, and reduced need for git stash."
     }
   ],
   display: true // Set false to hide this section, defaults to true
