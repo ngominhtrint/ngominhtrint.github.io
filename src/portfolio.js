@@ -332,6 +332,18 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/10Et0TYA3Hxsvc660neiFazY0YWDXPXGn/view?usp=sharing"
         },
       ]
+    },
+    {
+      title: "GitHub Actions - The Complete Guide",
+      subtitle: "10.5 hours GitHub DevOps: Automated CI/CD workflows mastery achieved",
+      image: require("./assets/images/udemy.png"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "Certification", 
+          url: "https://drive.google.com/file/d/1aVulJd8G3x4ufNFgS-q_wYIsT5YBiXoW/view?usp=sharing"
+        },
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
