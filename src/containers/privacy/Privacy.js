@@ -33,8 +33,8 @@ const Privacy = () => {
             <h2>3. Sound and Music Attribution</h2>
             <p>The app includes audio content from the following sources:</p>
             <ul>
-              <li><strong>FiftySounds</strong>: “Ancestral Spirits”, “What Matters Most”, “Sweet Dreams” – <a href="https://www.fiftysounds.com" target="_blank">https://www.fiftysounds.com</a></li>
-              <li><strong>Mixkit Free Sound Effects</strong>: <a href="https://mixkit.co/free-sound-effects" target="_blank">https://mixkit.co/free-sound-effects</a></li>
+              <li><strong>FiftySounds</strong>: “Ancestral Spirits”, “What Matters Most”, “Sweet Dreams” – <a href="https://www.fiftysounds.com">https://www.fiftysounds.com</a></li>
+              <li><strong>Mixkit Free Sound Effects</strong>: <a href="https://mixkit.co/free-sound-effects">https://mixkit.co/free-sound-effects</a></li>
             </ul>
             <p>All audio is used in accordance with the licenses provided by the respective sources.</p>
 
