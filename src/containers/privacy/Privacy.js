@@ -62,7 +62,7 @@ const Privacy = () => {
             <p><strong>Email:</strong> ngominhtrint@gmail.com</p>
 
             <p><em>Thank you for trusting Relax Sound – Calm Sleep Focus. Your privacy and relaxation are our top priorities.</em></p>
-        </div>
+          </div>
       </div>
     );
   };
